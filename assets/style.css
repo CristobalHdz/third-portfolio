@@ -1,0 +1,240 @@
+:root {
+    --generalFontColor: #8BD9C7;
+    --backgroundColorOne: #373737;
+    --backgroundColorTwo: #59515E;
+    --hoverEffectShadow: inset 0 0 5px rgba(255, 255, 255, 0.075), 0 0 50px rgba(255, 255, 255, 0.6);
+    --languageCardBackground: linear-gradient(45deg, rgba(0,217,255,1) 21%, rgba(28,28,28,1) 87%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#returnBtn{
+    background-color:#00a897 ;
+    position:fixed; 
+    bottom:20px;
+    right:20px;
+    z-index: 1;
+    font-size: 20px;
+    color: white; 
+}
+
+/* Navbar starts */
+#navBarContainer {
+    height: 100px;
+    margin-bottom: 0;
+}
+
+#optionsContainer button{
+    background-color: transparent;
+    font-weight: bold;
+    color:rgb(240, 240, 240);
+    border: none;
+    cursor: pointer;
+}
+#optionsContainer button:hover{
+color:rgb(163, 163, 255)
+}
+
+#navBarContainer img{
+    height:60px;
+    margin-top:20px
+}
+/* Navbar ends */
+/* About me starts */
+
+#aboutMe{
+    background-color: #373737;
+    height:fit-content;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+#aboutMe img{
+    border-radius: 50px;
+}
+
+#aboutMe p{
+    font-size: 18px;
+}
+
+.info{
+    color: #00a897 ;
+}
+/* About me ends */
+
+/* Projects begins */
+.presentProjects {
+    background-color: var(--backgroundColorTwo);
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+#nexLogo,
+#sotoLogo {
+    width: 50px;
+}
+
+#nexumApp {
+    background-color: #08145c ;
+    margin-bottom: 20px;
+ }
+ 
+.nexButton{
+    background-color: #dc731b;
+    width: 150px;
+    height:50px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 30px 0 5px 0;
+}
+ 
+.nexButton:hover{
+    background-color:orangered;
+    cursor: pointer;
+ }
+
+ #sotoApp{
+     background-color: seagreen;
+ }
+
+/* Present Projects Ends */
+
+/* Experience Begins */
+
+#experience{
+    background-color: var(--backgroundColorOne);
+    margin-bottom: 0;
+}
+
+#experience h1{
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+#scheduler,
+#nutricipy{
+    background-color:#6b6b6b ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#gitSchedule,
+#webSchedule,
+#gitNutricipy,
+#webNutricipy{
+    width: 150px;
+    height:50px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color:#00897b ;
+    margin-top:20px;
+}
+
+#gitSchedule a,
+#webSchedule a,
+#gitNutricipy a,
+#webNutricipy a{
+    color:white;
+    font-style: none;
+}
+
+#gitSchedule:hover,
+#webSchedule:hover,
+#gitNutricipy:hover,
+#webNutricipy:hover{
+    background-color:#02cfbb;
+}
+
+
+/* Experience Ends */
+
+/* Mobile */
+@media screen and (max-width:425px) {
+    #aboutMe img{
+        width:90%;
+        margin-top: 15px;
+    }
+    #aboutMe p{
+        font-size: 20px;
+    }
+    #sotoApp h1{
+        font-size: 40px;
+    }
+    #scheduler img,
+    #nutricipy img{
+        width: 60%px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width:768px) {  
+    #optionsContainer button{
+        font-size: 15px;
+        margin-top: 20px;
+        height:60px;
+        margin-right:10px
+    }
+    #aboutMe{
+        height:fit-content;
+    }
+    #aboutMe img{
+        margin-top:100px;
+    }
+}
+
+/* PC */
+@media screen and (min-width:769px) {  
+    #optionsContainer button{
+        font-size: 17px;
+        margin-top: 20px;
+        height:60px;
+        margin-left:20px;
+    }
+    #aboutmeChild{
+        margin-top:20px;
+    }
+    #aboutmeChild img{
+        width:320px;
+        margin-top:20px;
+    }
+    #aboutMe{
+        padding-top: 20px;
+    }
+    
+    #nexumApp,
+    #sotoApp{
+        height:600px;
+    }
+}
+
+@media screen and (min-width:997px) { 
+    #nexumApp{
+        margin-left:4%
+    }
+    #scheduler img,
+    #nutricipy img{
+        width:30%;
+    }
+}
+
+@media screen and (min-width:1339px) { 
+    #nexumApp,
+    #sotoApp{
+        height:560px;
+    }
+ }
+
+@media screen and (min-width:1382px) { 
+    #nexumApp,
+    #sotoApp{
+        height:500px;
+    }
+ }

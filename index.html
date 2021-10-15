@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="row grey darken-3" id="navBarContainer">
+        <div class="col m8 l6 hide-on-small-only left-align" id="optionsContainer">
+            <button><a href="#aboutMe">About me</a></button>
+            <button><a href="#Present-Projects">Present Projects</a></button>
+            <button><a href="#experience">Experience</a></button>
+        </div>
+        <div class="col s12 m4 l6" id="logoContainer">
+            <a href="https://github.com/CristobalHdz" target="_blank" class="col s4 l2 offset-l5 center-align">
+                <img src="assets/Images/GithubLogo.png" alt="GitHub Logo">
+            </a>
+            <a href="https://www.linkedin.com/in/cristobalhernandezch/" target="_blank"
+                class="col s4 m4 l2 center-align">
+                <img src="assets/Images/LinkedinLogo.png" alt="Linkedin Logo">
+            </a>
+            <a href="assets/CV Cristobal Hernandez.pdf" download
+                class="col s4 m4 l2 center-align">
+                <img src="assets/Images/CV-Download.png" alt="Download CV logo">
+            </a>
+        </div>
+    </div>
+
+    
+        <a href="#navBarContainer"><button id="returnBtn" class="btn-floating btn-large waves-effect waves-light">︽</button> </a>
+
+    <section class="row" id="aboutMe">
+        <div class="col s12 center-align" id="aboutTitle">
+            <h1 class="teal-text darken-1">About me</h1>
+            <h5 class="white-text"><b>A little something about myself</b></h5>
+        </div>
+        <div class="row  white-text" id="aboutmeChild">
+            <img class="col s12 m4 l4 xl6 offset-l1 offset-xl2" src="assets/Images/ProfilePhoto.png"
+                alt="Profile Photo">
+            <div class="col s12 m7 l7 xl6 center-align">
+                <h4>I'm a Junior Web Developer at Ilum
+                    Sherpass
+                </h4>
+                <p>My name is Cristobal Hernandez. I studied
+                    Industrial
+                    engineering with
+                    a minor in systems at Tecnologico de Monterrey in Monterrey.
+                    During my studies I have worked at Heineken where my team and I
+                    worked on an automatization of the warehouse's processes.
+                    </br>
+                    </br>
+                    I currently am working with Ilum Prosperity Sherpass in which
+                    I am helping with two projects. Nexum which is a way to sign
+                    e-documents, currently only working inside of Mexico; the second
+                    project is a overhaul of Transportes Soto's website with its
+                    databases.</p>
+                </br>
+                <h4>Contact Info.</h4>
+                <h5>Personal Email: <span class="info">cristobalhdzch@gmail.com</span></h5>
+                <h5>Job Email: <span class="info">cristobal.hernandez@ilumps.com</span></h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="presentProjects" id="Present-Projects">
+        <h1 class="teal-text darken-1 center-align">My Present Projects</h1>
+        </br>
+        <h3 class="center-align">The projects I am currently working on</h3>
+        <div class="row">
+
+            <div class="col s10 m10 l5 offset-s1 offset-m1 center-align" id="nexumApp">
+                <h1><img src="./assets/Images/NexumLogo.png" alt="Logo Nexum" id="nexLogo" />Nexum</h1>
+                <h2>A website in which you can sign your legal documents with your
+                    electronic device.
+                </h2>
+                <a href="https://nexumlegal.com.mx/" target="_blank">
+                    <button class="nexButton">Visit Nexum</button>
+                </a>
+                <p>
+                    Website in Spanish
+                </p>
+            </div>
+
+            <div class="col s10 m10 l5 offset-s1 offset-m1 offset-l1 center-align" id="sotoApp">
+                <h1><img src="./assets/Images/TSotoLogo.png" alt="Logo Transportes Soto" id="sotoLogo" /> Transportes
+                    Soto </h1>
+                <h2>Remake of the main website, as well as their databases.</h2>
+                </br>
+                <h4>
+                    The work is in progress and I am unable to share it to the public.
+                </h4>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="experience">
+        <div>
+            <h1 class="teal-text darken-1 center-align">My Present Projects</h1>
+            </br>
+            <h3 class="center-align">Past completed assignments</h3>
+        </div>
+
+        <div class="row" id="projectsCards">
+            <div class="col s10 offset-s1 center-align" id="scheduler">
+                <h1>Work Day Schedule</h1>
+                <img class="col s10 offset-s1 offset-m1 l5 offset-l1" src="./assets/Images/Scheduler.png"
+                    alt="Scheduler show">
+                <h3 class="col s10 offset-s1 l6">A day scheduler which depending on the hour it'll block from commenting
+                    on past hours.</h3>
+
+                <div class="col s10 l10 offset-s1 offset-l2 offset-xl3" id="webConnect">
+
+                    <button class="col s5 offset-s3 offset-m1 offset-l1" id="gitSchedule"><a
+                            href="https://github.com/CristobalHdz/Schedule_5thWK.git" target="_blank">Github
+                            page</a></button>
+
+                    <button class="col s5 offset-s3" id="webSchedule"><a
+                            href="https://cristobalhdz.github.io/Schedule_5thWK/" target="_blank">Website</a></button>
+                </div>
+            </div>
+
+            <div class="col s10 offset-s1 center-align" id="nutricipy">
+                <h1>Nutricipy</h1>
+                <h3 class="col s10 offset-s1 l6 offset-l1">A webpage which based on your Body Mass Index(BMI), and
+                    personal eating
+                    prefferences, will select from different recipes from over the web.</h3>
+                <img class="col s10 offset-s1 offset-m1 l5" src="assets/Images/Nutricipy.png" alt="Scheduler show">
+                <div class="col s10 l10 offset-s1 offset-l2 offset-xl3" id="NutrConnect">
+
+                    <button class="col s5 offset-s3 offset-m1 offset-l1" id="gitNutricipy"><a
+                            href="https://github.com/CristobalHdz/Nutricipy.git" target="_blank">Github
+                            page</a></button>
+
+                    <button class="col s5 offset-s3" id="webNutricipy"><a
+                            href="https://cristobalhdz.github.io/Nutricipy/" target="_blank">Website</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
